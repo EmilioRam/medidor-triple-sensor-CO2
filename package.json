@@ -1,0 +1,25 @@
+{
+    "name": "cliente-sensorco2_triple",
+    "version": "1.0.0",
+    "description": "lecturas de CO2 de 3 sensores simultaneos, temp y humedad con subida a MongoDB Atlas",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Emilio Ramos",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "csv-writer": "^1.6.0",
+        "dotenv": "^8.2.0",
+        "i2c-bus": "^5.2.1",
+        "mongoose": "^5.12.0",
+        "node-cron": "^3.0.0",
+        "node-dht-sensor": "^0.4.3",
+        "raspi-node-sht31": "^1.0.1",
+        "serialport": "^9.0.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
